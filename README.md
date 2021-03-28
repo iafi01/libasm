@@ -6,6 +6,9 @@ Main compile <br>
 nasm -f macho64 ft_strlen.s && gcc main.c ft_strlen.o <br>
 <table>
   <tr>
+    <th colspan="2">Label</th>
+  </tr>
+  <tr>
     <td>jmp</td><td>label</td>
   </tr>
   <tr>
