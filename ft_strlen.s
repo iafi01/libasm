@@ -9,8 +9,8 @@ increment:
 			inc RAX
 
 compare: 
-		cmp byte [RDI + RAX], 0
+		cmp [RDI + RAX], 0
 		jne increment
-done:
+end:
 		ret  
 
