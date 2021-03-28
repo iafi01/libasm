@@ -70,3 +70,21 @@ nasm -f macho64 ft_strlen.s && gcc main.c ft_strlen.o <br>
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th colspan="2">Params</th>
+  </tr>
+  <tr>
+    <td>RDI</td>
+ 
+  <td>RSI</td>
+  
+  <td>RDX</td>
+  
+  <td>RCX</td>
+  
+  <td>R8</td>
+  
+  <td>R9</td>
+  </tr>
+</table>
