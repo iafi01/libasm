@@ -72,7 +72,7 @@ nasm -f macho64 ft_strlen.s && gcc main.c ft_strlen.o <br>
 
 <table>
   <tr>
-    <th colspan="5">Params</th>
+    <th colspan="6">Params</th>
   </tr>
   <tr>
     <td>RDI</td>
