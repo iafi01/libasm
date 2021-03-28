@@ -36,7 +36,7 @@ nasm -f macho64 ft_strlen.s && gcc main.c ft_strlen.o <br>
 
 <table>
   <tr>
-    <th rowspan="2">Maths</th>
+    <th colspan="2">Maths</th>
   </tr>
   <tr>
     <td>add</td><td>+=</td>
