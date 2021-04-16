@@ -1,11 +1,12 @@
 section .text
     global _ft_strcpy
 
-ft_strcpy: 
-            xor RCX,RCX ;i=0
+_ft_strcpy: 
+            xor RCX,RCX
             cmp BYTE[RDI + RCX],0
             jz end
-            cmp BYTE[RSI + RCX],0
+            xor RDX,RDX
+            cmp BYTE[RSI + RDX],0
             jz end
             jmp ciclo
 
